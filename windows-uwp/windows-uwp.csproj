@@ -122,11 +122,83 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\ProductListPage.xaml.cs">
-      <DependentUpon>ProductListPage.xaml</DependentUpon>
+    <Compile Include="Pages\Dashboard.xaml.cs">
+      <DependentUpon>Dashboard.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\ProductDetailPage.xaml.cs">
-      <DependentUpon>ProductDetailPage.xaml</DependentUpon>
+    <Compile Include="Pages\InventoryListPage.xaml.cs">
+      <DependentUpon>InventoryListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\InventoryDetailPage.xaml.cs">
+      <DependentUpon>InventoryDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AddInventoryItemPage.xaml.cs">
+      <DependentUpon>AddInventoryItemPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\EditInventoryItemPage.xaml.cs">
+      <DependentUpon>EditInventoryItemPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\DeleteInventoryItemPage.xaml.cs">
+      <DependentUpon>DeleteInventoryItemPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\OrderListPage.xaml.cs">
+      <DependentUpon>OrderListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\OrderDetailPage.xaml.cs">
+      <DependentUpon>OrderDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AddOrderPage.xaml.cs">
+      <DependentUpon>AddOrderPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\EditOrderPage.xaml.cs">
+      <DependentUpon>EditOrderPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\DeleteOrderPage.xaml.cs">
+      <DependentUpon>DeleteOrderPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SupplierListPage.xaml.cs">
+      <DependentUpon>SupplierListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SupplierDetailPage.xaml.cs">
+      <DependentUpon>SupplierDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AddSupplierPage.xaml.cs">
+      <DependentUpon>AddSupplierPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\EditSupplierPage.xaml.cs">
+      <DependentUpon>EditSupplierPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\DeleteSupplierPage.xaml.cs">
+      <DependentUpon>DeleteSupplierPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ShipmentListPage.xaml.cs">
+      <DependentUpon>ShipmentListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ShipmentDetailPage.xaml.cs">
+      <DependentUpon>ShipmentDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AddShipmentPage.xaml.cs">
+      <DependentUpon>AddShipmentPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\EditShipmentPage.xaml.cs">
+      <DependentUpon>EditShipmentPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\DeleteShipmentPage.xaml.cs">
+      <DependentUpon>DeleteShipmentPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\StocktakingListPage.xaml.cs">
+      <DependentUpon>StocktakingListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\StocktakingDetailPage.xaml.cs">
+      <DependentUpon>StocktakingDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AddStocktakingPage.xaml.cs">
+      <DependentUpon>AddStocktakingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\EditStocktakingPage.xaml.cs">
+      <DependentUpon>EditStocktakingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\DeleteStocktakingPage.xaml.cs">
+      <DependentUpon>DeleteStocktakingPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -154,11 +226,107 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Pages\ProductListPage.xaml">
+    <Page Include="Pages\Dashboard.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\ProductDetailPage.xaml">
+    <Page Include="Pages\InventoryListPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\InventoryDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\AddInventoryItemPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\EditInventoryItemPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\DeleteInventoryItemPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\OrderListPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\OrderDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\AddOrderPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\EditOrderPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\DeleteOrderPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\SupplierListPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\SupplierDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\AddSupplierPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\EditSupplierPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\DeleteSupplierPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\ShipmentListPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\ShipmentDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\AddShipmentPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\EditShipmentPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\DeleteShipmentPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\StocktakingListPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\StocktakingDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\AddStocktakingPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\EditStocktakingPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\DeleteStocktakingPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

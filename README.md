@@ -45,5 +45,29 @@ Building & development instructions for the respective platforms are available i
 
 The apps contain the following pages:
 
-* **Product List Page**: The page that lists all products
-* **Product Detail Page**: The page that shows the details of a product
+* **Dashboard**: The main dashboard providing an overview of warehouse operations
+* **Inventory List Page**: The page that lists all items in the inventory
+* **Inventory Detail Page**: The page that shows details of a specific inventory item
+* **Add Inventory Item Page**: The page where new inventory items can be added
+* **Edit Inventory Item Page**: The page for editing existing inventory items
+* **Delete Inventory Item Page**: The page for deleting an inventory item
+* **Order List Page**: The page that lists all customer orders
+* **Order Detail Page**: The page that shows details of a specific customer order
+* **Add Order Page**: The page for creating a new customer order
+* **Edit Order Page**: The page for editing an existing customer order
+* **Delete Order Page**: The page for deleting a customer order
+* **Supplier List Page**: The page that lists all suppliers
+* **Supplier Detail Page**: The page that shows details of a specific supplier
+* **Add Supplier Page**: The page for adding a new supplier
+* **Edit Supplier Page**: The page for editing an existing supplier
+* **Delete Supplier Page**: The page for deleting a supplier
+* **Shipment List Page**: The page that lists all shipments
+* **Shipment Detail Page**: The page that shows details of a specific shipment
+* **Add Shipment Page**: The page for adding a new shipment
+* **Edit Shipment Page**: The page for editing an existing shipment
+* **Delete Shipment Page**: The page for deleting a shipment
+* **Stocktaking List Page**: The page that lists all stocktaking activities
+* **Stocktaking Detail Page**: The page that shows details of a specific stocktaking activity
+* **Add Stocktaking Page**: The page for initiating a new stocktaking activity
+* **Edit Stocktaking Page**: The page for editing an existing stocktaking activity
+* **Delete Stocktaking Page**: The page for deleting a stocktaking activity

@@ -16,11 +16,11 @@ using Windows.UI.Xaml.Navigation;
 namespace windows_uwp
 {
     /// <summary>
-    /// The page that lists all products
+    /// The page for editing existing inventory items
     /// </summary>
-    public sealed partial class ProductListPage : Page
+    public sealed partial class EditInventoryItemPage : Page
     {
-        public ProductListPage()
+        public EditInventoryItemPage()
         {
             this.InitializeComponent();
         }

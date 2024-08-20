@@ -16,11 +16,11 @@ using Windows.UI.Xaml.Navigation;
 namespace windows_uwp
 {
     /// <summary>
-    /// The page that shows the details of a product
+    /// The page that lists all stocktaking activities
     /// </summary>
-    public sealed partial class ProductDetailPage : Page
+    public sealed partial class StocktakingListPage : Page
     {
-        public ProductDetailPage()
+        public StocktakingListPage()
         {
             this.InitializeComponent();
         }

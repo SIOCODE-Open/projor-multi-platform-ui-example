@@ -15,8 +15,32 @@
             
             <ScrollViewer HorizontalScrollMode="Enabled" MaxHeight="400">
                 <StackPanel HorizontalAlignment="Center">
-                    <Button Content="Product List Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToProductListPage" />
-                    <Button Content="Product Detail Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToProductDetailPage" />
+                    <Button Content="Dashboard" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToDashboard" />
+                    <Button Content="Inventory List Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToInventoryListPage" />
+                    <Button Content="Inventory Detail Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToInventoryDetailPage" />
+                    <Button Content="Add Inventory Item Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToAddInventoryItemPage" />
+                    <Button Content="Edit Inventory Item Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToEditInventoryItemPage" />
+                    <Button Content="Delete Inventory Item Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToDeleteInventoryItemPage" />
+                    <Button Content="Order List Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToOrderListPage" />
+                    <Button Content="Order Detail Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToOrderDetailPage" />
+                    <Button Content="Add Order Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToAddOrderPage" />
+                    <Button Content="Edit Order Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToEditOrderPage" />
+                    <Button Content="Delete Order Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToDeleteOrderPage" />
+                    <Button Content="Supplier List Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToSupplierListPage" />
+                    <Button Content="Supplier Detail Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToSupplierDetailPage" />
+                    <Button Content="Add Supplier Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToAddSupplierPage" />
+                    <Button Content="Edit Supplier Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToEditSupplierPage" />
+                    <Button Content="Delete Supplier Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToDeleteSupplierPage" />
+                    <Button Content="Shipment List Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToShipmentListPage" />
+                    <Button Content="Shipment Detail Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToShipmentDetailPage" />
+                    <Button Content="Add Shipment Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToAddShipmentPage" />
+                    <Button Content="Edit Shipment Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToEditShipmentPage" />
+                    <Button Content="Delete Shipment Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToDeleteShipmentPage" />
+                    <Button Content="Stocktaking List Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToStocktakingListPage" />
+                    <Button Content="Stocktaking Detail Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToStocktakingDetailPage" />
+                    <Button Content="Add Stocktaking Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToAddStocktakingPage" />
+                    <Button Content="Edit Stocktaking Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToEditStocktakingPage" />
+                    <Button Content="Delete Stocktaking Page" Margin="0,6,0,6" VerticalAlignment="Top" Click="OnNavigateToDeleteStocktakingPage" />
                 </StackPanel>
             </ScrollViewer>
         </StackPanel>

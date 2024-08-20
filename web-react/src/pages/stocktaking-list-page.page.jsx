@@ -4,15 +4,15 @@ import {
     useRef
 } from "react";
 
-/** The page that shows the details of a product */
-export function ProductDetailPage(
+/** The page that lists all stocktaking activities */
+export function StocktakingListPage(
     props
 ) {
     return <div className="flex items-center justify-center w-screen h-screen">
         <div className="rounded-lg p-4 border-gray-100 border-2">
-            <h1 className="text-4xl font-bold">Product Detail Page</h1>
+            <h1 className="text-4xl font-bold">Stocktaking List Page</h1>
             <p className="text-normal">
-                The page that shows the details of a product
+                The page that lists all stocktaking activities
             </p>
             <button className="m-2 p-2 bg-blue-500 text-white rounded-lg" onClick={() => {
                 if(props.onNavigate) props.onNavigate("MainMenu");
