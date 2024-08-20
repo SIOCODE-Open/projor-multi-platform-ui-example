@@ -55,3 +55,6 @@
 * Created `linux-gtk-readme-md.ptemplate.mustache`
 * Created `readme-md.ptemplate.mustache`
 
+* Remodelled `pages.pdata.yaml`
+* Created new screenshots
+* Rebuilt stuff, tested
