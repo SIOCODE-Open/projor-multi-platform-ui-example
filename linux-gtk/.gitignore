@@ -1,0 +1,6 @@
+*
+!build.sh
+!dependencies.sh
+!.gitignore
+!README.md
+!main.c

@@ -1,0 +1,9 @@
+id: pages
+name: Pages
+description: The pages in the UI application
+schema: Page
+objects:
+  - name: product_list_page
+    description: The page that lists all products
+  - name: product_detail_page
+    description: The page that shows the details of a product

@@ -1,0 +1,17 @@
+{
+    "map": {},
+    "filename": "linux-gtk/build.sh"
+}
+---
+#!/bin/bash
+
+echo "[{{capitalCase $.name}}] {{{$.description}}}"
+echo "[{{capitalCase $.name}}] Version {{$.version}}"
+(
+    gcc -Wno-deprecated -Wno-deprecated-declarations \
+        `pkg-config --cflags gtk+-3.0` \
+        -o {{kebabCase $.name}} \
+        main.c \
+        `pkg-config --libs gtk+-3.0` && \
+    echo "[{{capitalCase $.name}}] Compilation successful."
+) || echo "[{{capitalCase $.name}}] Compilation FAILED!"
