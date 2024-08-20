@@ -3,7 +3,55 @@ name: Pages
 description: The pages in the UI application
 schema: Page
 objects:
-  - name: product_list_page
-    description: The page that lists all products
-  - name: product_detail_page
-    description: The page that shows the details of a product
+  - name: dashboard
+    description: The main dashboard providing an overview of warehouse operations
+  - name: inventory_list_page
+    description: The page that lists all items in the inventory
+  - name: inventory_detail_page
+    description: The page that shows details of a specific inventory item
+  - name: add_inventory_item_page
+    description: The page where new inventory items can be added
+  - name: edit_inventory_item_page
+    description: The page for editing existing inventory items
+  - name: delete_inventory_item_page
+    description: The page for deleting an inventory item
+  - name: order_list_page
+    description: The page that lists all customer orders
+  - name: order_detail_page
+    description: The page that shows details of a specific customer order
+  - name: add_order_page
+    description: The page for creating a new customer order
+  - name: edit_order_page
+    description: The page for editing an existing customer order
+  - name: delete_order_page
+    description: The page for deleting a customer order
+  - name: supplier_list_page
+    description: The page that lists all suppliers
+  - name: supplier_detail_page
+    description: The page that shows details of a specific supplier
+  - name: add_supplier_page
+    description: The page for adding a new supplier
+  - name: edit_supplier_page
+    description: The page for editing an existing supplier
+  - name: delete_supplier_page
+    description: The page for deleting a supplier
+  - name: shipment_list_page
+    description: The page that lists all shipments
+  - name: shipment_detail_page
+    description: The page that shows details of a specific shipment
+  - name: add_shipment_page
+    description: The page for adding a new shipment
+  - name: edit_shipment_page
+    description: The page for editing an existing shipment
+  - name: delete_shipment_page
+    description: The page for deleting a shipment
+  - name: stocktaking_list_page
+    description: The page that lists all stocktaking activities
+  - name: stocktaking_detail_page
+    description: The page that shows details of a specific stocktaking activity
+  - name: add_stocktaking_page
+    description: The page for initiating a new stocktaking activity
+  - name: edit_stocktaking_page
+    description: The page for editing an existing stocktaking activity
+  - name: delete_stocktaking_page
+    description: The page for deleting a stocktaking activity
